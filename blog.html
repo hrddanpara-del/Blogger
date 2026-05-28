@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram Ashish Gupta | Professional Portfolio</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="visitor-counter">Visitors: <span id="count-val">0</span></div>
+        <div class="live-time" id="clock">Loading time...</div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">RAG <span class="sub-logo">Engineering</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#power-experience">Grid Operations</a></li>
+            <li><a href="#software-skills">Technical Skills</a></li>
+            <li><button id="open-slider-btn" class="nav-profile-btn">View Profile</button></li>
+        </ul>
+    </nav>
+
+    <div id="bio-slider" class="corner-slider">
+        <div class="slider-header">
+            <h3>Profile Summary</h3>
+            <button id="close-slider-btn">&times;</button>
+        </div>
+        <div class="slider-body">
+            <div class="profile-pic-container">
+                <img src="profile.jpg" alt="Ram Ashish Gupta" class="profile-img" onerror="this.src='https://via.placeholder.com/120';">
+            </div>
+            
+            <h4>Ram Ashish Gupta</h4>
+            <p class="title-tag">Assistant Engineer &amp; Deputy Manager (Selected)</p>
+            <p class="institution-tag">NIT Rourkela (Electrical Engineering, 2015)</p>
+            <hr>
+            <p><strong>Current:</strong> Power Grid Corporation</p>
+            <p class="bio-text">Electrical Engineer bridging the gap between heavy power systems automation and modern software architecture.</p>
+        </div>
+    </div>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ram Ashish Gupta</h1>
+            <p>Deputy Manager (Selected) @ Power Grid | NIT Rourkela Alumnus</p>
+            <p class="hero-subtext">Expertise in 765/400/132 KV Grid Substation Operations & Full-Stack Software Engineering</p>
+            <a href="#power-experience" class="cta-btn">View Core Portfolio</a>
+        </div>
+    </header>
+
+    <main class="portfolio-container">
+        
+        <section id="power-experience" class="portfolio-section">
+            <h2>Power Systems &amp; Grid Experience</h2>
+            <div class="experience-grid">
+                
+                <div class="exp-card">
+                    <div class="exp-icon">⚡</div>
+                    <h3>765 / 400 / 132 KV Switchyard Operations</h3>
+                    <p class="exp-sub">Maintenance, Protection &amp; Core Operations</p>
+                    <p>Extensive field experience managing high-voltage transmission assets. Specializing in line protection schemes, bus bar configurations, interlocking operations, and preventative switchyard asset maintenance to ensure maximum grid uptime.</p>
+                </div>
+
+                <div class="exp-card">
+                    <div class="exp-icon">🏭</div>
+                    <h3>210 MW Thermal Power Generation Protection</h3>
+                    <p class="exp-sub">Generator Protection Schemes</p>
+                    <p>Overseeing system safeguards for large-scale generation units. Working heavily with generator differential relays, reverse power protections, out-of-step settings, loss of excitation protection loops, and electrical fault diagnostics.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="software-skills" class="portfolio-section">
+            <h2>Software Engineering &amp; Programming Core</h2>
+            <p class="section-desc">Cross-disciplinary proficiency in automation development, backend engineering, and reactive UI layout design.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-tag border-frontend">HTML5 &amp; CSS3</div>
+                <div class="skill-tag border-frontend">Bootstrap</div>
+                <div class="skill-tag border-frontend">JavaScript (ES6+)</div>
+                <div class="skill-tag border-frontend">React.js</div>
+                <div class="skill-tag border-backend">Node.js</div>
+                <div class="skill-tag border-lang">Python</div>
+                <div class="skill-tag border-lang">Java</div>
+                <div class="skill-tag border-lang">C</div>
+                <div class="skill-tag border-lang">C++</div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="blog.js"></script>
+</body>
+</html>
